@@ -8,7 +8,7 @@
  */
 
 void print_to_98(int n)
-i{
+{
 	if (n <= 98)
 	{
 	for (; n <= 98; n++)
@@ -26,6 +26,8 @@ i{
 	else
 	{
 	for (; n >= 98; n--)
+	{
+	if (n == 98)
 	{
 	printf("%d", n);
 	printf("\n");
