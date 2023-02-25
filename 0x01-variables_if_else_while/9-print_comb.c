@@ -16,7 +16,9 @@ int main(void)
 	putchar(' ');
 	num++;
 	}
-	if (num = '9')
+	while (num = '9')
+	{
 	putchar(num);
+	}
 	return (0);
 }
