@@ -13,9 +13,11 @@ int main(void)
 
 	while (num <= '9')
 	{
-	if (c <= 'f')  
+	while (c <= 'f')
+	{
 	putchar(c);
 	c++;
+	}
 	putchar(num);
 	num++;
 	}
