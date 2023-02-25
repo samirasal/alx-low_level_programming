@@ -11,15 +11,15 @@ int main(void)
 	int num = '0';
 	char c = 'a';
 
-	while (num <= '9')
-	{
 	while (c <= 'f')
 	{
-	putchar(c);
-	c++;
-	}
+	while (num <= '9')
+	{
 	putchar(num);
 	num++;
+	}
+	putchar(c);
+	c++;
 	}
 	putchar('\n');
 	return (0);
