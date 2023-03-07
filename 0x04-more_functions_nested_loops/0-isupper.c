@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - Checks for uppercase letters
+ * _isupper - Checks for uppercase letters
+ * @c: This is the argument of the function
  * Return: Always Success
  */
 
